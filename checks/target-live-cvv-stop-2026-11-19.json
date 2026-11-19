@@ -1,0 +1,17 @@
+{
+  "merchant": "Target",
+  "profile": "Daniel · d",
+  "product": "PlayStation 5 Console - Digital Edition",
+  "record": {
+    "at": "2026-11-19T12:13:26.133Z",
+    "tcin": "94961316",
+    "totalCents": 64949,
+    "outcome": "filled-stopped",
+    "filledAt": "2026-11-19T12:13:45.963Z"
+  },
+  "placeYourOrderClicks": 1,
+  "cvvDrawerObserved": true,
+  "fieldMatchedInput": true,
+  "cvvConfirmClicks": 0,
+  "finalScreen": "Target Confirm CVV"
+}

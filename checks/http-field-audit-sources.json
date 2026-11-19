@@ -1,0 +1,40 @@
+{
+  "pro": {
+    "url": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188",
+    "fetchedUTC": "2026-11-19T01:06:58+00:00",
+    "status": 200,
+    "bytes": 360315,
+    "contentType": "text/html",
+    "sha256": "76cf64c5a6e1dc0b4c94d4afa5886d4404cca79fa9f1b8a18ee2f113bc25cf80"
+  },
+  "base": {
+    "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316",
+    "fetchedUTC": "2026-11-19T01:06:59+00:00",
+    "status": 200,
+    "bytes": 350055,
+    "contentType": "text/html",
+    "sha256": "98add9d7d79cb896055bb11a0506fa442520da3cafa6c57b37bca5b6d4c56d8a"
+  },
+  "public-tracker": {
+    "url": "https://www.trackalacker.com/products/showcase/playstation-5-pro-console/listings/156139/playstation-5-pro-console",
+    "status": 403
+  },
+  "pro-report": {
+    "url": "https://www.hotstock.io/us/p/playstation-5-pro-console-2tb",
+    "fetchedUTC": "2026-11-19T01:07:28+00:00",
+    "status": 200,
+    "bytes": 144527,
+    "contentType": "text/html",
+    "sha256": "5a1faf2d5f9608a540a58c8bac9502ed1d3bca4107283cf0a08f381b69425a10",
+    "publisherReportedStock": "OUT OF STOCK"
+  },
+  "base-report": {
+    "url": "https://www.hotstock.io/us/p/sony-playstation-5-ps5-digital-slim-console",
+    "fetchedUTC": "2026-11-19T01:07:29+00:00",
+    "status": 200,
+    "bytes": 150549,
+    "contentType": "text/html",
+    "sha256": "144fe5c20c7778b6c2ede493ee98f4646d0a0b11650dcd089084523cdc07be28",
+    "publisherReportedStock": "unknown"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "target-ps5-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "ps:check": "python3 -B src/ps_direct.py check",
+    "ps:watch": "python3 -B src/ps_direct.py watch",
+    "ps:test-alert": "python3 -B src/ps_direct.py test-alert",
+    "ps:window": "python3 -B src/ps_direct.py window",
+    "ps:status": "python3 -B src/ps_direct.py status",
+    "ps:stop": "python3 -B src/ps_direct.py stop",
+    "setup": "node src/bot.mjs --setup",
+    "check": "node src/bot.mjs --once",
+    "check:http": "python3 src/shipping_http.py",
+    "target:changes": "python3 -B src/target_changes.py",
+    "check:report": "python3 src/shipping_http.py --report",
+    "check:session": "node src/bot.mjs --http-check",
+    "start": "node src/bot.mjs",
+    "buy": "node src/bot.mjs --buy",
+    "test": "node --test"
+  },
+  "dependencies": { "playwright": "^1.56.1" }
+}

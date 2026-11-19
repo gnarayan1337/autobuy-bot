@@ -1,0 +1,287 @@
+{
+  "experiment": "Anonymous Target HTTPS shipping comparison, no ZIP or browser",
+  "intervalAfterCompletedRoundSeconds": 12,
+  "rounds": 4,
+  "startedAt": "2026-11-19T09:45:28.546+00:00",
+  "finishedAt": "2026-11-19T09:46:08.542+00:00",
+  "products": {
+    "pro": {
+      "tcin": "93620188",
+      "url": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188",
+      "events": {
+        "baseline": 1,
+        "other_page_bytes_changed": 3
+      },
+      "distinctPageHashes": 4,
+      "distinctShippingSnapshots": 1,
+      "shipping": {
+        "availability": "unknown",
+        "tileState": "unknown",
+        "embeddedShippingStatuses": [],
+        "shippingButton": {
+          "text": "Shipping",
+          "label": "shipping - loading...",
+          "disabled": true,
+          "availabilityClasses": [
+            "styles_notActiveAndUnavailableFulfillmentCell"
+          ]
+        }
+      },
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": true,
+        "fulfillmentSections": 0
+      },
+      "samples": [
+        {
+          "round": 1,
+          "observedAt": "2026-11-19T09:45:29.498+00:00",
+          "httpStatus": 200,
+          "event": "baseline",
+          "bodySHA256": "09bd62ee2142b45b1c6c0ce09a1db1a96a8ff20548926f3b076bd7f19cc76562",
+          "changedFields": []
+        },
+        {
+          "round": 2,
+          "observedAt": "2026-11-19T09:45:42.500+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "c6b0b42393adef85f59d24241332e5e4848126661bee9409da1f992f5b855491",
+          "changedFields": []
+        },
+        {
+          "round": 3,
+          "observedAt": "2026-11-19T09:45:55.553+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "bd5906e33190a4bcd29fed62510557f21d1709402f7f6bd8dbbdb8128d6823f8",
+          "changedFields": []
+        },
+        {
+          "round": 4,
+          "observedAt": "2026-11-19T09:46:08.542+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "7a339410f2c90722ea66129cadbb4c56584b0c2113157b0cf3736c5677a03518",
+          "changedFields": []
+        }
+      ],
+      "earlierCaptureHashesWithMatchingShipping": [
+        "b99f50e5e893aa38b947dd1b4823fa13fd32b922439e844ccefae62db8bef780",
+        "2440cd7697b4fe7ac7fb213ea217b09b307c75f406f06818893803df354dc7f9",
+        "76cf64c5a6e1dc0b4c94d4afa5886d4404cca79fa9f1b8a18ee2f113bc25cf80"
+      ]
+    },
+    "base": {
+      "tcin": "94961316",
+      "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316",
+      "events": {
+        "baseline": 1,
+        "other_page_bytes_changed": 3
+      },
+      "distinctPageHashes": 4,
+      "distinctShippingSnapshots": 1,
+      "shipping": {
+        "availability": "unknown",
+        "tileState": "unknown",
+        "embeddedShippingStatuses": [],
+        "shippingButton": {
+          "text": "Shipping",
+          "label": "shipping - loading...",
+          "disabled": true,
+          "availabilityClasses": [
+            "styles_notActiveAndUnavailableFulfillmentCell"
+          ]
+        }
+      },
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      },
+      "samples": [
+        {
+          "round": 1,
+          "observedAt": "2026-11-19T09:45:29.049+00:00",
+          "httpStatus": 200,
+          "event": "baseline",
+          "bodySHA256": "5517e76c0928d6374a5b4a25f5f5149adc678d3e70877e87fc003fb806a14ac5",
+          "changedFields": []
+        },
+        {
+          "round": 2,
+          "observedAt": "2026-11-19T09:45:42.007+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "f21a881baced2b91d29f24c6288716dee402c8a01805d245367b1246787fd005",
+          "changedFields": []
+        },
+        {
+          "round": 3,
+          "observedAt": "2026-11-19T09:45:55.092+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "4796850f1ed29cecd4c1bf658fb0b0d124e2ca0dc1721e7005377fd558906f3b",
+          "changedFields": []
+        },
+        {
+          "round": 4,
+          "observedAt": "2026-11-19T09:46:08.050+00:00",
+          "httpStatus": 200,
+          "event": "other_page_bytes_changed",
+          "bodySHA256": "5cf8ff2b3c7026ef5e0954d7168d80752b862d3df7931f25ae8ff352e5be5141",
+          "changedFields": []
+        }
+      ],
+      "earlierCaptureHashesWithMatchingShipping": [
+        "8ecfb2104e9b89e009624c0fb081c823cd30dc07bf3c042cfec6eb2006509e05",
+        "36bed426483aaa2982815112423780615336db7b1b907b2a1223e14b95be7bdb",
+        "98add9d7d79cb896055bb11a0506fa442520da3cafa6c57b37bca5b6d4c56d8a"
+      ]
+    }
+  },
+  "additionalPublicPages": [
+    {
+      "name": "category",
+      "url": "https://www.target.com/c/playstation-5-consoles-video-games/-/N-dvoaw",
+      "httpStatus": 200,
+      "fileWrittenAtUTC": "2026-11-19T09:48:55.029+00:00",
+      "bytes": 197461,
+      "sha256": "3fb1c6152e1d03f8c36923c796a5a52774b9c945787171cd6bf8f6d9e4111208",
+      "skuEvidence": {
+        "pro": {
+          "rawTcinMentions": 1,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        },
+        "base": {
+          "rawTcinMentions": 1,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        }
+      }
+    },
+    {
+      "name": "search-base",
+      "url": "https://www.target.com/s?searchTerm=PlayStation+5+Console+Digital+Edition",
+      "httpStatus": 200,
+      "fileWrittenAtUTC": "2026-11-19T09:49:52.549+00:00",
+      "bytes": 134673,
+      "sha256": "24e296657897258079ec57a9e4700b29a8a429f9425486745342c07e5a053c4b",
+      "skuEvidence": {
+        "pro": {
+          "rawTcinMentions": 0,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        },
+        "base": {
+          "rawTcinMentions": 0,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        }
+      }
+    },
+    {
+      "name": "search-pro",
+      "url": "https://www.target.com/s?searchTerm=PlayStation+5+Pro+Console",
+      "httpStatus": 200,
+      "fileWrittenAtUTC": "2026-11-19T09:49:52.485+00:00",
+      "bytes": 134457,
+      "sha256": "3e5d8529a255c55d7b178318e8ace5ad0209b7b86f9e829186907aa599649ddd",
+      "skuEvidence": {
+        "pro": {
+          "rawTcinMentions": 0,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        },
+        "base": {
+          "rawTcinMentions": 0,
+          "productAnchors": 0,
+          "embeddedShippingStatuses": []
+        }
+      }
+    }
+  ],
+  "independentFollowupWithShippingOptionHashing": [
+    {
+      "round": 1,
+      "product": "base",
+      "tcin": "94961316",
+      "requestedAt": "2026-11-19T09:51:36.871+00:00",
+      "httpStatus": 200,
+      "sampledAt": "2026-11-19T09:51:37.437+00:00",
+      "event": "baseline",
+      "changedFields": [],
+      "bodySHA256": "f7dc21c1707c88ecb0e1e5caa397526f7ecf000a6ad98fcf1d10be894bf4c7bd",
+      "shipping": {
+        "availability": "unknown",
+        "tileState": "unknown",
+        "embeddedShippingStatuses": [],
+        "shippingOptionHashes": [],
+        "shippingButton": {
+          "text": "Shipping",
+          "label": "shipping - loading...",
+          "disabled": true,
+          "availabilityClasses": [
+            "styles_notActiveAndUnavailableFulfillmentCell"
+          ]
+        }
+      },
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      },
+      "observedAt": "2026-11-19T09:51:37.455+00:00"
+    },
+    {
+      "round": 1,
+      "product": "pro",
+      "tcin": "93620188",
+      "requestedAt": "2026-11-19T09:51:37.455+00:00",
+      "httpStatus": 200,
+      "sampledAt": "2026-11-19T09:51:37.959+00:00",
+      "event": "baseline",
+      "changedFields": [],
+      "bodySHA256": "f60d00618f97666ba2e6a7f8b5cead211e8f4ba3021d1d5d53f9fce21a782a8c",
+      "shipping": {
+        "availability": "unknown",
+        "tileState": "unknown",
+        "embeddedShippingStatuses": [],
+        "shippingOptionHashes": [],
+        "shippingButton": {
+          "text": "Shipping",
+          "label": "shipping - loading...",
+          "disabled": true,
+          "availabilityClasses": [
+            "styles_notActiveAndUnavailableFulfillmentCell"
+          ]
+        }
+      },
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": true,
+        "fulfillmentSections": 0
+      },
+      "observedAt": "2026-11-19T09:51:37.976+00:00"
+    }
+  ],
+  "serviceDiscovery": {
+    "standard": "Universal Commerce Protocol business profile",
+    "specification": "https://ucp.dev/specification/overview/",
+    "url": "https://www.target.com/.well-known/ucp",
+    "httpStatus": 404,
+    "contentType": "text/html",
+    "observedAt": "2026-11-19T10:03:56.866+00:00",
+    "bodySHA256": "db98bd60478472c6d0c8504a14804577f5bb427a89f01918174fe367ab3520d1",
+    "scope": "www.target.com only",
+    "developerPortal": {
+      "url": "https://developer.target.com/",
+      "landingPageLoginChoices": [
+        "Team member / Target Plus",
+        "External user"
+      ]
+    },
+    "consumerNotificationDocumentation": "https://www.target.com/help/article/000063023"
+  }
+}

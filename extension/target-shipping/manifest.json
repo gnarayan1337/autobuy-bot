@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Target PS5 Pro Shipping",
+  "version": "1.6.1",
+  "description": "Watch the Target PS5 Pro Shipping tile. Alert, add one, or order one for up to $1,100 total.",
+  "minimum_chrome_version": "120",
+  "incognito": "not_allowed",
+  "permissions": ["activeTab", "scripting", "storage", "alarms", "notifications"],
+  "background": {"service_worker": "worker.js", "type": "module"},
+  "action": {"default_popup": "popup.html", "default_title": "Target PS5 Pro shipping"},
+  "icons": {"128": "icon.png"}
+}

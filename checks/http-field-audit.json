@@ -1,0 +1,3953 @@
+{
+  "scope": "Distinct public product fields, selected primary product modules, social metadata and fulfillment controls. Array positions are pooled; repeated renderings of the same field count once. Storefront text outside a small allowlist is fingerprinted.",
+  "captures": {
+    "base": {
+      "tcin": "94961316",
+      "bytes": 350055,
+      "sha256": "98add9d7d79cb896055bb11a0506fa442520da3cafa6c57b37bca5b6d4c56d8a",
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)"
+    },
+    "pro": {
+      "tcin": "93620188",
+      "bytes": 360315,
+      "sha256": "76cf64c5a6e1dc0b4c94d4afa5886d4404cca79fa9f1b8a18ee2f113bc25cf80",
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)"
+    }
+  },
+  "count": 204,
+  "fields": [
+    {
+      "id": 1,
+      "field": "markup.fulfillment.DELIVERY.aria-disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "field": "markup.fulfillment.DELIVERY.aria-label",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "delivery - loading..."
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "delivery - loading..."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "field": "markup.fulfillment.DELIVERY.aria-pressed",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "field": "markup.fulfillment.DELIVERY.class",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "field": "markup.fulfillment.DELIVERY.disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "field": "markup.fulfillment.DELIVERY.text",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Delivery"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Delivery"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "field": "markup.fulfillment.PICKUP.aria-disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "field": "markup.fulfillment.PICKUP.aria-label",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "pickup - loading..."
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "pickup - loading..."
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "field": "markup.fulfillment.PICKUP.aria-pressed",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "field": "markup.fulfillment.PICKUP.class",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "field": "markup.fulfillment.PICKUP.disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "field": "markup.fulfillment.PICKUP.text",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Pickup"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Pickup"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "field": "markup.fulfillment.SHIPPING.aria-disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "field": "markup.fulfillment.SHIPPING.aria-label",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "shipping - loading..."
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "shipping - loading..."
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "field": "markup.fulfillment.SHIPPING.aria-pressed",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "(absent)"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "field": "markup.fulfillment.SHIPPING.class",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "styles_btn__zZcJr styles_base__SonOG styles_md__YSyPt styles_ndsButtonSecondary__heDu5 styles_notActiveAndUnavailableFulfillmentCell__WdGt0"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "field": "markup.fulfillment.SHIPPING.disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          ""
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "field": "markup.fulfillment.SHIPPING.text",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Shipping"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "Shipping"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "field": "markup.meta.og:description",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(133 chars, sha256 a166603bcdfe)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(119 chars, sha256 c5dfc78b08d2)"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "field": "markup.meta.og:image",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 da3ba7f454dc)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 dc51247fdee4)"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "field": "markup.meta.og:title",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(39 chars, sha256 930e58dc2ad5)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(25 chars, sha256 fc5805ddebe4)"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "field": "markup.meta.og:type",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(7 chars, sha256 a8792157cb4f)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(7 chars, sha256 a8792157cb4f)"
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "field": "markup.meta.og:url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(75 chars, sha256 10899398dbe0)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(63 chars, sha256 be7fba599ad1)"
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "field": "markup.purchaseButton.add to cart.disabled",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "True"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "True"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "field": "modules.ProductAddOns",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "field": "modules.ProductDetailAccordion.sections[*].is_open_by_default",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "false",
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "false",
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "field": "modules.ProductDetailAccordion.sections[*].section_type",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 13,
+        "sample": [
+          "text(10 chars, sha256 f07081c1fca9)",
+          "text(11 chars, sha256 4bf53a4e0130)",
+          "text(12 chars, sha256 391472e365de)"
+        ],
+        "setSHA256": "74fbacf9237ea2f8ff85a3c90ec0df5c7739cf4882d0a8904f2c203f37d73ec4"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 13,
+        "sample": [
+          "text(10 chars, sha256 f07081c1fca9)",
+          "text(11 chars, sha256 4bf53a4e0130)",
+          "text(12 chars, sha256 391472e365de)"
+        ],
+        "setSHA256": "74fbacf9237ea2f8ff85a3c90ec0df5c7739cf4882d0a8904f2c203f37d73ec4"
+      }
+    },
+    {
+      "id": 28,
+      "field": "modules.ProductDetailAddToCart.data_by_tcin",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "field": "modules.ProductDetailAtAGlance.data_attributes[*].badge_image_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 7c1cc6307a5d)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 7c1cc6307a5d)"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "field": "modules.ProductDetailAtAGlance.data_attributes[*].description",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(82 chars, sha256 e01d1c7a64ec)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(82 chars, sha256 e01d1c7a64ec)"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "field": "modules.ProductDetailAtAGlance.data_attributes[*].id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "field": "modules.ProductDetailAtAGlance.data_attributes[*].name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 f1483fbb1b63)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 f1483fbb1b63)"
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "field": "modules.ProductDetailAtAGlance.data_attributes[*].parent_name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(31 chars, sha256 4f60ae1e26ea)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(31 chars, sha256 4f60ae1e26ea)"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "field": "modules.ProductDetailAtAGlance.data_ids_by_tcin[*].item_ids[*]",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "field": "modules.ProductDetailAtAGlance.data_ids_by_tcin[*].tcins[*]",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(8 chars, sha256 a28037d57455)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(8 chars, sha256 cbf071c021a8)"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "field": "modules.ProductDetailAvailabilitySneakPeek",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "field": "modules.ProductDetailBreadcrumbs",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "field": "modules.ProductDetailDeals",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "field": "modules.ProductDetailFinance",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "field": "modules.ProductDetailFulfillment.data_by_tcin[*].tcin",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"94961316\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"93620188\""
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "field": "modules.ProductDetailFulfillment.data_by_tcin[*].three_up_sections",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "field": "modules.ProductDetailFulfillmentMessaging",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.__typename",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(14 chars, sha256 c5218677495b)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(14 chars, sha256 c5218677495b)"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].__typename",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(24 chars, sha256 ceb1e9993e40)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(24 chars, sha256 13ea0b56530f)",
+          "text(24 chars, sha256 ceb1e9993e40)"
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].caption_url",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(86 chars, sha256 7bc6abbdea85)"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].length_in_seconds",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "64"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].poster_image_url",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 438a8c28e559)"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].title",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"Launch Trailer\""
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(84 chars, sha256 5ac3cbd38a62)",
+          "text(84 chars, sha256 6d6b7dbac5ea)",
+          "text(84 chars, sha256 873d00c1d05c)"
+        ],
+        "setSHA256": "ab061e9008bb2a02a57de75ecc2f6b436c2795e2a8a092c3606fc905fe3067c8"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 12,
+        "sample": [
+          "text(84 chars, sha256 00827e85f3bd)",
+          "text(84 chars, sha256 075b8d24413b)",
+          "text(84 chars, sha256 0c5f3013188a)"
+        ],
+        "setSHA256": "35ecce0f0b260cae2c9e00610d0071045b76eba2b0ca9f87e7ae183d237bd824"
+      }
+    },
+    {
+      "id": 50,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.assets[*].video_url",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(86 chars, sha256 bb06da3e26ed)"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].product_gallery.show_pagination_indicator",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "field": "modules.ProductDetailImageGallery.data_by_tcin[*].tcin",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"94961316\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"93620188\""
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "field": "modules.ProductDetailImageGallery.should_display_cgi_experiences",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "field": "modules.ProductDetailManufacturerNotes",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "field": "modules.ProductDetailManufacturerNotesJumpLinks",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "field": "modules.ProductDetailPrice",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "field": "modules.ProductDetailPriceMatchAndStoreInfo",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "field": "modules.ProductDetailPromo.data_by_tcin[*].loyalty.redemption_codes",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "field": "modules.ProductDetailPromo.data_by_tcin[*].promotions",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "field": "modules.ProductDetailPromo.data_by_tcin[*].tcin",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"94961316\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"93620188\""
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "field": "modules.ProductDetailRatingsAndReviews",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "field": "modules.ProductDetailTitle.data_by_tcin",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "[]"
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "field": "modules.ProductDetailTitle.title",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"PlayStation 5 Console - Digital Edition\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"PlayStation 5 Pro Console\""
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "field": "modules.ProductDetailWebDatasourceFulfillmentAndVariations",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "null"
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "field": "modules.ProductOrnament.ornaments[*].component.__typename",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 0c7823e8c759)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 0c7823e8c759)"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].__typename",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 35ff182a194c)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 35ff182a194c)"
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].attributes.color",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(15 chars, sha256 23bf16c1b06c)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(15 chars, sha256 23bf16c1b06c)"
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].attributes.fontsize",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(12 chars, sha256 7b6e1c0fb3f9)",
+          "text(17 chars, sha256 4c305c077a7a)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(12 chars, sha256 7b6e1c0fb3f9)",
+          "text(17 chars, sha256 4c305c077a7a)"
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].insert.targetnicollet.__typename",
+      "comparison": "base only",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(12 chars, sha256 8c8faab14e6a)"
+        ]
+      },
+      "pro": {
+        "present": false
+      }
+    },
+    {
+      "id": 70,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].insert.targetnicollet.accessibility_label",
+      "comparison": "base only",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 ad94cdc70d0f)"
+        ]
+      },
+      "pro": {
+        "present": false
+      }
+    },
+    {
+      "id": 71,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].insert.targetnicollet.resource_name",
+      "comparison": "base only",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(14 chars, sha256 b8da44b1ce1c)"
+        ]
+      },
+      "pro": {
+        "present": false
+      }
+    },
+    {
+      "id": 72,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].insert.targetnicollet.tint",
+      "comparison": "base only",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(18 chars, sha256 f4b8b82699b0)"
+        ]
+      },
+      "pro": {
+        "present": false
+      }
+    },
+    {
+      "id": 73,
+      "field": "modules.ProductOrnament.ornaments[*].component.content[*].contents[*].insert.text",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(16 chars, sha256 15a38198ef53)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(20 chars, sha256 d7db4d3f11f1)",
+          "text(5 chars, sha256 1ab04e7d0609)"
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "field": "modules.ProductOrnament.ornaments[*].component.orientation.row.horizontal_arrangement",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 39f17ec6ebcf)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 39f17ec6ebcf)"
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "field": "modules.ProductOrnament.ornaments[*].component.orientation.row.vertical_alignment",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 3456d6ebcb47)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 3456d6ebcb47)"
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "field": "modules.ProductOrnament.ornaments[*].component.padding.bottom",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(26 chars, sha256 929300119d88)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(26 chars, sha256 929300119d88)"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "field": "modules.ProductOrnament.ornaments[*].component.padding.top",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(26 chars, sha256 929300119d88)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(26 chars, sha256 929300119d88)"
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "field": "modules.ProductOrnament.ornaments[*].component.spacing",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(25 chars, sha256 56930e3f0c47)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(25 chars, sha256 56930e3f0c47)"
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "field": "modules.ProductOrnament.ornaments[*].tcin",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"94961316\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"93620188\""
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "field": "pagewide.offerMarkup.addressCountry",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "field": "pagewide.offerMarkup.availability",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "field": "pagewide.offerMarkup.availabilityEnds",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "field": "pagewide.offerMarkup.availabilityStarts",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "field": "pagewide.offerMarkup.availableDeliveryMethod",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "field": "pagewide.offerMarkup.businessDays",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "field": "pagewide.offerMarkup.cutoffTime",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "field": "pagewide.offerMarkup.deliveryLeadTime",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "field": "pagewide.offerMarkup.deliveryMethod",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "field": "pagewide.offerMarkup.deliveryTime",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "field": "pagewide.offerMarkup.doesNotShip",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "field": "pagewide.offerMarkup.eligibleQuantity",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "field": "pagewide.offerMarkup.eligibleRegion",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "field": "pagewide.offerMarkup.handlingTime",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "field": "pagewide.offerMarkup.ineligibleRegion",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "field": "pagewide.offerMarkup.inventoryLevel",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "field": "pagewide.offerMarkup.postalCode",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "field": "pagewide.offerMarkup.shippingDestination",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "field": "pagewide.offerMarkup.shippingDetails",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "field": "pagewide.offerMarkup.shippingOrigin",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "field": "pagewide.offerMarkup.shippingRate",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "field": "pagewide.offerMarkup.transitTime",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "not found"
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "field": "product.__typename",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(7 chars, sha256 fb9ef894175c)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(7 chars, sha256 fb9ef894175c)"
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "field": "product.category.breadcrumbs[*].canonical_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(1 chars, sha256 8a5edab28263)",
+          "text(24 chars, sha256 5fae9f450954)",
+          "text(26 chars, sha256 2f9b012167df)"
+        ],
+        "setSHA256": "fb13420d946447b08134112559dd9d744484e33ea2b2a40359b96cb2b5f2a0fb"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(1 chars, sha256 8a5edab28263)",
+          "text(24 chars, sha256 5fae9f450954)",
+          "text(26 chars, sha256 2f9b012167df)"
+        ],
+        "setSHA256": "fb13420d946447b08134112559dd9d744484e33ea2b2a40359b96cb2b5f2a0fb"
+      }
+    },
+    {
+      "id": 104,
+      "field": "product.category.breadcrumbs[*].category_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(4 chars, sha256 4813494d137e)",
+          "text(5 chars, sha256 154652d24671)",
+          "text(5 chars, sha256 191d5f705544)"
+        ],
+        "setSHA256": "cbe8eda84115f2e40ef3cd105a67b34b59c4d32f16782cda6b12d44aaba0a39a"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(4 chars, sha256 4813494d137e)",
+          "text(5 chars, sha256 154652d24671)",
+          "text(5 chars, sha256 191d5f705544)"
+        ],
+        "setSHA256": "cbe8eda84115f2e40ef3cd105a67b34b59c4d32f16782cda6b12d44aaba0a39a"
+      }
+    },
+    {
+      "id": 105,
+      "field": "product.category.breadcrumbs[*].name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(11 chars, sha256 1f9759fe8db7)",
+          "text(13 chars, sha256 1e54d845b711)",
+          "text(22 chars, sha256 777ffe9cfaa8)"
+        ],
+        "setSHA256": "2616915b0f101ddc0273993850927e9341f25a770f4aa06603c65fdfec5fbec8"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(11 chars, sha256 1f9759fe8db7)",
+          "text(13 chars, sha256 1e54d845b711)",
+          "text(22 chars, sha256 777ffe9cfaa8)"
+        ],
+        "setSHA256": "2616915b0f101ddc0273993850927e9341f25a770f4aa06603c65fdfec5fbec8"
+      }
+    },
+    {
+      "id": 106,
+      "field": "product.category.name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(22 chars, sha256 777ffe9cfaa8)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(22 chars, sha256 777ffe9cfaa8)"
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "field": "product.category.parent_category_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 191d5f705544)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 191d5f705544)"
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "field": "product.desirability_cues[*].code",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"bestseller\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"social_proofing\""
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "field": "product.desirability_cues[*].display",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"Bestseller\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"600+ bought in last month\""
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "field": "product.desirability_cues[*].long_description",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(68 chars, sha256 16bd288e465e)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(47 chars, sha256 8fd7a40e838b)"
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "field": "product.fast_selling.fast_selling",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "field": "product.fast_selling.queue_gated",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "field": "product.item.cart_add_on_threshold",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "35"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "35"
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "field": "product.item.compliance",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "{}"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "{}"
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "field": "product.item.dpci",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 5ee31b566b7d)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 1c10923e1ea3)"
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "field": "product.item.eligibility_rules.hold.is_active",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "field": "product.item.eligibility_rules.scheduled_delivery.is_active",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "field": "product.item.eligibility_rules.ship_to_guest.is_active",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "field": "product.item.enrichment.buy_url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(75 chars, sha256 10899398dbe0)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(63 chars, sha256 be7fba599ad1)"
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "field": "product.item.enrichment.image_info.alternate_images[*].image_name",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 7,
+        "sample": [
+          "text(42 chars, sha256 16425e3cd4f7)",
+          "text(42 chars, sha256 45f39559b2de)",
+          "text(42 chars, sha256 49fb0fae4614)"
+        ],
+        "setSHA256": "ea3ddc100372011cd25eb332df7bb5e0d7bff32460fcd45982a735e4349d8752"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 11,
+        "sample": [
+          "text(42 chars, sha256 0a0064311755)",
+          "text(42 chars, sha256 1ee9827a60d4)",
+          "text(42 chars, sha256 39f888b602dc)"
+        ],
+        "setSHA256": "6f1fc650cb15e85e376657918f12b0f9c5b756d747700d0b641e4e7476b56bf8"
+      }
+    },
+    {
+      "id": 121,
+      "field": "product.item.enrichment.image_info.alternate_images[*].url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 7,
+        "sample": [
+          "text(84 chars, sha256 5ac3cbd38a62)",
+          "text(84 chars, sha256 6d6b7dbac5ea)",
+          "text(84 chars, sha256 873d00c1d05c)"
+        ],
+        "setSHA256": "4c8ffd7b1e23a110ba600a4a6c60548f13f564c7c4f725fc0dbed969add5a580"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 11,
+        "sample": [
+          "text(84 chars, sha256 00827e85f3bd)",
+          "text(84 chars, sha256 075b8d24413b)",
+          "text(84 chars, sha256 0c5f3013188a)"
+        ],
+        "setSHA256": "62bd7c92af639ed73c6db986ddf7506073c412f32b43b2bf0ca820a99733a8fb"
+      }
+    },
+    {
+      "id": 122,
+      "field": "product.item.enrichment.image_info.base_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(36 chars, sha256 067e6f78e6bc)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(36 chars, sha256 067e6f78e6bc)"
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "field": "product.item.enrichment.image_info.content_labels[*].image_url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(84 chars, sha256 5ac3cbd38a62)",
+          "text(84 chars, sha256 6d6b7dbac5ea)",
+          "text(84 chars, sha256 873d00c1d05c)"
+        ],
+        "setSHA256": "ab061e9008bb2a02a57de75ecc2f6b436c2795e2a8a092c3606fc905fe3067c8"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 12,
+        "sample": [
+          "text(84 chars, sha256 00827e85f3bd)",
+          "text(84 chars, sha256 075b8d24413b)",
+          "text(84 chars, sha256 0c5f3013188a)"
+        ],
+        "setSHA256": "35ecce0f0b260cae2c9e00610d0071045b76eba2b0ca9f87e7ae183d237bd824"
+      }
+    },
+    {
+      "id": 124,
+      "field": "product.item.enrichment.image_info.primary_image.image_name",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(42 chars, sha256 62d2e207252f)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(42 chars, sha256 a544b328e603)"
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "field": "product.item.enrichment.image_info.primary_image.url",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 da3ba7f454dc)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 dc51247fdee4)"
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "field": "product.item.enrichment.image_info.swatch_image",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "{}"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "{}"
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "field": "product.item.enrichment.return_policies[*].day_count",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "30",
+          "60"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "30",
+          "60"
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "field": "product.item.enrichment.return_policies[*].user_type",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(10 chars, sha256 1f35d3b59a02)",
+          "text(13 chars, sha256 c5ec509a72ed)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(10 chars, sha256 1f35d3b59a02)",
+          "text(13 chars, sha256 c5ec509a72ed)"
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "field": "product.item.enrichment.videos[*].video_captions[*].caption_url",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(86 chars, sha256 7bc6abbdea85)"
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "field": "product.item.enrichment.videos[*].video_captions[*].language",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2 chars, sha256 69374b09b168)"
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "field": "product.item.enrichment.videos[*].video_files[*].mime_type",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(9 chars, sha256 f81cfbc783d4)"
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "field": "product.item.enrichment.videos[*].video_files[*].video_url",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(86 chars, sha256 bb06da3e26ed)"
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "field": "product.item.enrichment.videos[*].video_length_seconds",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2 chars, sha256 a68b412c4282)"
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "field": "product.item.enrichment.videos[*].video_poster_image",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 438a8c28e559)"
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "field": "product.item.enrichment.videos[*].video_title",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(14 chars, sha256 cf125fd7e653)"
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "field": "product.item.environmental_segmentation.is_hazardous_material",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "field": "product.item.formatted_return_method",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(47 chars, sha256 f0af4a5c6e7f)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(47 chars, sha256 f0af4a5c6e7f)"
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "field": "product.item.fulfillment.is_gift_wrap_eligible",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "field": "product.item.fulfillment.po_box_prohibited_message",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"We regret that this item cannot be shipped to PO Boxes.\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"We regret that this item cannot be shipped to PO Boxes.\""
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "field": "product.item.fulfillment.purchase_limit",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "1"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "1"
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "field": "product.item.fulfillment.shipping_exclusion_codes[*]",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 9,
+        "sample": [
+          "text(20 chars, sha256 67bea5e46e9c)",
+          "text(24 chars, sha256 66545d35b3df)",
+          "text(36 chars, sha256 6691c7985661)"
+        ],
+        "setSHA256": "e93c44a301cbce8f3fbff2d798b5b6a80b187311680bd4fadbed05bca3eccc20"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 9,
+        "sample": [
+          "text(20 chars, sha256 67bea5e46e9c)",
+          "text(24 chars, sha256 66545d35b3df)",
+          "text(36 chars, sha256 6691c7985661)"
+        ],
+        "setSHA256": "e93c44a301cbce8f3fbff2d798b5b6a80b187311680bd4fadbed05bca3eccc20"
+      }
+    },
+    {
+      "id": 142,
+      "field": "product.item.handling.import_designation_description",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(8 chars, sha256 321f179c80ba)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(8 chars, sha256 321f179c80ba)"
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "field": "product.item.is_limited_time_offer",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "false"
+        ]
+      }
+    },
+    {
+      "id": 144,
+      "field": "product.item.merchandise_classification.class_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "43"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "43"
+        ]
+      }
+    },
+    {
+      "id": 145,
+      "field": "product.item.merchandise_classification.department_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "207"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "207"
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "field": "product.item.merchandise_classification.department_name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 3659159b5e24)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 3659159b5e24)"
+        ]
+      }
+    },
+    {
+      "id": 147,
+      "field": "product.item.mmbv_content.street_date",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 a07f900de7e9)"
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "field": "product.item.package_dimensions.depth",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "17.06"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "18.4"
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "field": "product.item.package_dimensions.dimension_unit_of_measure",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(4 chars, sha256 061850f56a1e)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(4 chars, sha256 061850f56a1e)"
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "field": "product.item.package_dimensions.height",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "5.4"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "7.2"
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "field": "product.item.package_dimensions.weight",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "8.488"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "10.65"
+        ]
+      }
+    },
+    {
+      "id": 152,
+      "field": "product.item.package_dimensions.weight_unit_of_measure",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 f04fcbc522ce)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 f04fcbc522ce)"
+        ]
+      }
+    },
+    {
+      "id": 153,
+      "field": "product.item.package_dimensions.width",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "14.42"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "14.2"
+        ]
+      }
+    },
+    {
+      "id": 154,
+      "field": "product.item.primary_barcode",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(12 chars, sha256 b34ca03c95ef)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(12 chars, sha256 8ca2f58b8169)"
+        ]
+      }
+    },
+    {
+      "id": 155,
+      "field": "product.item.primary_brand.canonical_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(24 chars, sha256 d415720fafef)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(24 chars, sha256 d415720fafef)"
+        ]
+      }
+    },
+    {
+      "id": 156,
+      "field": "product.item.primary_brand.linking_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 fd8756220925)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(5 chars, sha256 fd8756220925)"
+        ]
+      }
+    },
+    {
+      "id": 157,
+      "field": "product.item.primary_brand.name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 55030fed1a3b)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(11 chars, sha256 55030fed1a3b)"
+        ]
+      }
+    },
+    {
+      "id": 158,
+      "field": "product.item.product_classification.item_type.name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 8c70c16ec21a)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 8c70c16ec21a)"
+        ]
+      }
+    },
+    {
+      "id": 159,
+      "field": "product.item.product_classification.item_type.type",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 41d47661ff6b)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 41d47661ff6b)"
+        ]
+      }
+    },
+    {
+      "id": 160,
+      "field": "product.item.product_classification.product_type",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "542"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "542"
+        ]
+      }
+    },
+    {
+      "id": 161,
+      "field": "product.item.product_classification.product_type_name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"ELECTRONICS\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"ELECTRONICS\""
+        ]
+      }
+    },
+    {
+      "id": 162,
+      "field": "product.item.product_classification.purchase_behavior",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"Discretionary\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"Discretionary\""
+        ]
+      }
+    },
+    {
+      "id": 163,
+      "field": "product.item.product_description.bullet_descriptions[*]",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 11,
+        "sample": [
+          "text(199 chars, sha256 cd00d51280c3)",
+          "text(25 chars, sha256 514f0fb03449)",
+          "text(35 chars, sha256 9ff2a85a39b1)"
+        ],
+        "setSHA256": "58ea64a4297806100ef22dc46015dde0bcc9066ecfed091a755f4b02e286bd58"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 11,
+        "sample": [
+          "text(106 chars, sha256 df01df1700f0)",
+          "text(199 chars, sha256 cd00d51280c3)",
+          "text(27 chars, sha256 297b14ff2d5c)"
+        ],
+        "setSHA256": "eeb0d6b0bdbf35fbdf0a605dce4e1b1d3c22fe89236f387f8c3593f84859a5ca"
+      }
+    },
+    {
+      "id": 164,
+      "field": "product.item.product_description.downstream_description",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(1210 chars, sha256 8ac0b05241b9)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2397 chars, sha256 c6e9b0286175)"
+        ]
+      }
+    },
+    {
+      "id": 165,
+      "field": "product.item.product_description.soft_bullet_description",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2512 chars, sha256 3d9e6d3fcfa4)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(3941 chars, sha256 d5c4ddc2917a)"
+        ]
+      }
+    },
+    {
+      "id": 166,
+      "field": "product.item.product_description.soft_bullets.bullets[*]",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 16,
+        "sample": [
+          "text(104 chars, sha256 17b631cfb54b)",
+          "text(114 chars, sha256 5ee21ca3fc12)",
+          "text(124 chars, sha256 80bab9ff8b53)"
+        ],
+        "setSHA256": "f3f2830504cb9b3e327036ac5416e14dee43007d09b46fabacbc11c875dd7fe0"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 20,
+        "sample": [
+          "text(103 chars, sha256 4815aa80a7b2)",
+          "text(113 chars, sha256 5e0eb204eba5)",
+          "text(121 chars, sha256 6db22318624c)"
+        ],
+        "setSHA256": "887d4dc8e71f0ba18ef3173aa9aeedefda9583ec736ac2458ac29d5fa539959c"
+      }
+    },
+    {
+      "id": 167,
+      "field": "product.item.product_description.soft_bullets.title",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"highlights\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"highlights\""
+        ]
+      }
+    },
+    {
+      "id": 168,
+      "field": "product.item.product_description.title",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"PlayStation 5 Console - Digital Edition\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"PlayStation 5 Pro Console\""
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "field": "product.item.relationship_type_code",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2 chars, sha256 360bf3a8254a)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(2 chars, sha256 360bf3a8254a)"
+        ]
+      }
+    },
+    {
+      "id": 170,
+      "field": "product.item.return_method",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 d200ac65b47b)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 d200ac65b47b)"
+        ]
+      }
+    },
+    {
+      "id": 171,
+      "field": "product.item.return_policies_guest_message",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(161 chars, sha256 b9644cba3469)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(161 chars, sha256 b9644cba3469)"
+        ]
+      }
+    },
+    {
+      "id": 172,
+      "field": "product.item.return_policy_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(62 chars, sha256 7f15748b6945)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(62 chars, sha256 7f15748b6945)"
+        ]
+      }
+    },
+    {
+      "id": 173,
+      "field": "product.item.wellness_merchandise_attributes[*].badge_url",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 7c1cc6307a5d)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(84 chars, sha256 7c1cc6307a5d)"
+        ]
+      }
+    },
+    {
+      "id": 174,
+      "field": "product.item.wellness_merchandise_attributes[*].parent_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 ba5256393ea9)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(6 chars, sha256 ba5256393ea9)"
+        ]
+      }
+    },
+    {
+      "id": 175,
+      "field": "product.item.wellness_merchandise_attributes[*].value_id",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(10 chars, sha256 27cece5e08a1)"
+        ]
+      }
+    },
+    {
+      "id": 176,
+      "field": "product.item.wellness_merchandise_attributes[*].value_name",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 f1483fbb1b63)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(19 chars, sha256 f1483fbb1b63)"
+        ]
+      }
+    },
+    {
+      "id": 177,
+      "field": "product.item.wellness_merchandise_attributes[*].wellness_description",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(82 chars, sha256 e01d1c7a64ec)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(82 chars, sha256 e01d1c7a64ec)"
+        ]
+      }
+    },
+    {
+      "id": 178,
+      "field": "product.ornaments[*].display",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 3,
+        "sample": [
+          "\"825GB storage;SSD (NVMe);HDMI\"",
+          "\"Rarely returned\"",
+          "\"Trending\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "\"2TB storage;SSD (NVMe);HDMI;10.91 lb\"",
+          "\"600+ bought in last month\""
+        ]
+      }
+    },
+    {
+      "id": 179,
+      "field": "product.ornaments[*].long_description",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(72 chars, sha256 81b3a0c09495)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(47 chars, sha256 8fd7a40e838b)"
+        ]
+      }
+    },
+    {
+      "id": 180,
+      "field": "product.ornaments[*].ornament",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "\"low_returns\"",
+          "\"top_specs\"",
+          "\"top_specs_with_pills\""
+        ],
+        "setSHA256": "19bd37a79863d41d6a990f8f6149f3bd186b2a87005a78ae2de994ecca4c8fe9"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 3,
+        "sample": [
+          "\"social_proofing\"",
+          "\"top_specs\"",
+          "\"top_specs_with_pills\""
+        ]
+      }
+    },
+    {
+      "id": 181,
+      "field": "product.ornaments[*].ornament_type",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 3,
+        "sample": [
+          "text(10 chars, sha256 9b97ac5e767e)",
+          "text(5 chars, sha256 84983c60f7da)",
+          "text(7 chars, sha256 a8792157cb4f)"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "text(5 chars, sha256 84983c60f7da)",
+          "text(7 chars, sha256 a8792157cb4f)"
+        ]
+      }
+    },
+    {
+      "id": 182,
+      "field": "product.ornaments[*].template_type",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "text(13 chars, sha256 515b549797ae)",
+          "text(14 chars, sha256 040be9620e09)",
+          "text(22 chars, sha256 721ced8ce313)"
+        ],
+        "setSHA256": "177a8d54b079385f747f1f344569992b037ca94fb1c2af8a73b2fcdfd0fde434"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 3,
+        "sample": [
+          "text(13 chars, sha256 515b549797ae)",
+          "text(14 chars, sha256 040be9620e09)",
+          "text(21 chars, sha256 a96a14af297d)"
+        ]
+      }
+    },
+    {
+      "id": 183,
+      "field": "product.predictive_search.search_term",
+      "comparison": "Pro only",
+      "base": {
+        "present": false
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "text(7 chars, sha256 a4a8d50fae10)"
+        ]
+      }
+    },
+    {
+      "id": 184,
+      "field": "product.ratings_and_reviews.has_verified",
+      "comparison": "same",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "true"
+        ]
+      }
+    },
+    {
+      "id": 185,
+      "field": "product.ratings_and_reviews.most_recent[*].id",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(36 chars, sha256 16fe6a906b24)",
+          "text(36 chars, sha256 2f0993addf1e)",
+          "text(36 chars, sha256 435b25bb1347)"
+        ],
+        "setSHA256": "841214130092e54cbff14484c933373c414c70cad3a3329e16968c9d74145cb4"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(36 chars, sha256 121a7d5348f7)",
+          "text(36 chars, sha256 1c5b7bbf7da5)",
+          "text(36 chars, sha256 208565daf151)"
+        ],
+        "setSHA256": "257b406db589e92e1492ce8cfff1acdb7c69ab3623c300cce03f9736088ac774"
+      }
+    },
+    {
+      "id": 186,
+      "field": "product.ratings_and_reviews.most_recent[*].rating.submitted_at",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(24 chars, sha256 2aafbc64a6b2)",
+          "text(24 chars, sha256 82f5a8f5cdb8)",
+          "text(24 chars, sha256 8cbab258fafa)"
+        ],
+        "setSHA256": "5fdded86603707e5eab5c96729614b5859311a8b674d0bb2737da0893f9212e3"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(24 chars, sha256 0d6d8107ea41)",
+          "text(24 chars, sha256 2a0ba854f9ad)",
+          "text(24 chars, sha256 470421648ce3)"
+        ],
+        "setSHA256": "5e8aec165d20198c435c80fd869e18128e1e1737f5a7a37fb51b0410a01748a6"
+      }
+    },
+    {
+      "id": 187,
+      "field": "product.ratings_and_reviews.most_recent[*].rating.value",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 2,
+        "sample": [
+          "1",
+          "5"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "1",
+          "3",
+          "4"
+        ],
+        "setSHA256": "63ac97afdd387ed57b0cc9dd30539d338d3938c3d5a7eef9f2b8348b4a7be700"
+      }
+    },
+    {
+      "id": 188,
+      "field": "product.ratings_and_reviews.most_recent[*].text",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(118 chars, sha256 e6bd189d370e)",
+          "text(122 chars, sha256 576bb3255d7a)",
+          "text(164 chars, sha256 6e0dcfc83f94)"
+        ],
+        "setSHA256": "3802be63db322d08c59f351f871a8d6bad7f93638c8729dedad226bd81674662"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 8,
+        "sample": [
+          "text(12 chars, sha256 5de88ae37ea2)",
+          "text(149 chars, sha256 0ab86cb7dfeb)",
+          "text(169 chars, sha256 0ff760de665a)"
+        ],
+        "setSHA256": "6747b66b05b5bf3cee8d13dff13981bcf39a31dbcdea47d556bf56b6078831d5"
+      }
+    },
+    {
+      "id": 189,
+      "field": "product.ratings_and_reviews.most_recent[*].title",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 3,
+        "sample": [
+          "\"I have no trust in target now\"",
+          "\"Logistics\"",
+          "\"Poor mishandling of a brand new ps5\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 4,
+        "sample": [
+          "\"A little disappointed\"",
+          "\"Good.\"",
+          "\"No pros in stock so they shipped me a slim\""
+        ],
+        "setSHA256": "faeb32462760e3c972c9f5ef3c791f633f680286c27961fe0af6570c9604c1f2"
+      }
+    },
+    {
+      "id": 190,
+      "field": "product.ratings_and_reviews.photos[*]",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 11,
+        "sample": [
+          "text(84 chars, sha256 1aadadb10a27)",
+          "text(84 chars, sha256 3d1ff4a165e6)",
+          "text(84 chars, sha256 46159389c11c)"
+        ],
+        "setSHA256": "f2c69c963d7e3d12b6076281e57d734de1cad723b4d7f8a869d4bcd3462e997a"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 12,
+        "sample": [
+          "text(84 chars, sha256 09c67fb583df)",
+          "text(84 chars, sha256 1c21b64ab452)",
+          "text(84 chars, sha256 36fdee3fa2aa)"
+        ],
+        "setSHA256": "6b959769c9934478cdbc4063549e36672e938d9009f19f473b3fc0ce8e1caff0"
+      }
+    },
+    {
+      "id": 191,
+      "field": "product.ratings_and_reviews.statistics.not_recommended_count",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "25"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "29"
+        ]
+      }
+    },
+    {
+      "id": 192,
+      "field": "product.ratings_and_reviews.statistics.question_count",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "29"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "19"
+        ]
+      }
+    },
+    {
+      "id": 193,
+      "field": "product.ratings_and_reviews.statistics.rating.average",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "3.55"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "3.83"
+        ]
+      }
+    },
+    {
+      "id": 194,
+      "field": "product.ratings_and_reviews.statistics.rating.count",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "197"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "245"
+        ]
+      }
+    },
+    {
+      "id": 195,
+      "field": "product.ratings_and_reviews.statistics.rating.distribution.rating1",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "69"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "59"
+        ]
+      }
+    },
+    {
+      "id": 196,
+      "field": "product.ratings_and_reviews.statistics.rating.distribution.rating2",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "0"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "6"
+        ]
+      }
+    },
+    {
+      "id": 197,
+      "field": "product.ratings_and_reviews.statistics.rating.distribution.rating3",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "3"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "10"
+        ]
+      }
+    },
+    {
+      "id": 198,
+      "field": "product.ratings_and_reviews.statistics.rating.distribution.rating4",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "4"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "15"
+        ]
+      }
+    },
+    {
+      "id": 199,
+      "field": "product.ratings_and_reviews.statistics.rating.distribution.rating5",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "121"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "155"
+        ]
+      }
+    },
+    {
+      "id": 200,
+      "field": "product.ratings_and_reviews.statistics.recommended_count",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "12"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "42"
+        ]
+      }
+    },
+    {
+      "id": 201,
+      "field": "product.ratings_and_reviews.statistics.recommended_percentage",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "32"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "59"
+        ]
+      }
+    },
+    {
+      "id": 202,
+      "field": "product.ratings_and_reviews.statistics.review_count",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "57"
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "89"
+        ]
+      }
+    },
+    {
+      "id": 203,
+      "field": "product.sales_classification_nodes.node_ids[*]",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 6,
+        "sample": [
+          "text(5 chars, sha256 150aded267f4)",
+          "text(5 chars, sha256 158873b6f16d)",
+          "text(5 chars, sha256 4a2a12335c17)"
+        ],
+        "setSHA256": "5c4f07736e088f6c3a00db023d6e65151d452253f2d38fad4ae2723ba902b1cf"
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 10,
+        "sample": [
+          "text(5 chars, sha256 076712bafbe1)",
+          "text(5 chars, sha256 0d607e6dbbb3)",
+          "text(5 chars, sha256 18c984d8a2f9)"
+        ],
+        "setSHA256": "3619cded00167a285c565e243ffc117e685f648e6ae5ac512bb8a29f422bc83d"
+      }
+    },
+    {
+      "id": 204,
+      "field": "product.tcin",
+      "comparison": "different",
+      "base": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"94961316\""
+        ]
+      },
+      "pro": {
+        "present": true,
+        "distinctValues": 1,
+        "sample": [
+          "\"93620188\""
+        ]
+      }
+    }
+  ]
+}

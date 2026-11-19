@@ -1,0 +1,15 @@
+{
+  "productUrl": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188",
+  "tcin": "93620188",
+  "productName": "PlayStation 5 Pro Console",
+  "maxTotal": 1100,
+  "zip": "75013",
+  "fulfillment": "shipping",
+  "pollSeconds": 5,
+  "browserPollSeconds": 15,
+  "browserRefreshSeconds": 180,
+  "navigationTimeoutMs": 45000,
+  "checkoutTimeoutMs": 60000,
+  "channel": "chrome",
+  "headless": false
+}

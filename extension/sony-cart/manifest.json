@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "PS5 Pro \u2022 Sony cart",
+  "version": "1.3.1",
+  "description": "Refresh the armed Sony Pro tab while unavailable and try Add once when its signed-in offer is visible. Cart only.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArRMYZRZGW1JhgKBbmDXevsXnfTNB0eE+0kTiq//ioR6EfJVxJ6nvkJzpjGQPWhWvbKzsVMdezYuRRvLmjbWrYVh/n20uPNiDMwbZjhXEMxmnFeO1yAN5jcma+CxeVZUqDHCx2Uuaujxdxundbviqf3xnhjaaytg5PwmJym4pEUb3TTifujFullHnQZicKL4A+l1VSOI8oMlM77HO2SunL7l9XaDdgt3hG/WA7Y2ueEC3gpBX0uCIi76JDve4yOtAUtdIyHbBV0bNmo26uu38kycQXfRCkiOp++jENj6s5ekgay4m65Vj4Y5QQ9NUAtg0M4GGLGrJbcRGTfVDgtJX+wIDAQAB",
+  "minimum_chrome_version": "120",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://direct.playstation.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "PS5 Pro cart watch"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'none'; object-src 'none';"
+  },
+  "incognito": "not_allowed",
+  "icons": {
+    "128": "icon.png"
+  }
+}

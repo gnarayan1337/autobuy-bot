@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Target shipping watch</title>
+<style>body{width:280px;margin:14px;color:#231a1b;font:14px/1.45 system-ui}h1{font-size:17px;margin:0}p{margin:10px 0}small{display:block;color:#65585a}button{border:0;border-radius:6px;background:#ab1521;color:white;padding:8px 12px;font:inherit;margin-top:12px}button:disabled{opacity:.55}</style>
+<h1>Target · PS5 Pro shipping</h1><p role="status" id="status">Checking…</p><small id="when"></small>
+<p><label>When Shipping is available<br><select id="mode">
+<option value="buy">Buy one Pro · $1,100 total max</option>
+<option value="cart">Add one Pro to cart</option>
+<option value="alert">Alert only</option>
+</select></label></p>
+<div id="payment">
+<label>Security code <input id="security" type="password" size="4" maxlength="4" inputmode="numeric" autocomplete="off"></label>
+<small>Optional. For the saved card selected at checkout. Cleared after use or stop.</small>
+</div>
+<p><label><input type="checkbox" id="reload"> Refresh the Target tab while unavailable</label></p>
+<button disabled id="toggle">Checking…</button>
+<button id="open-pro" hidden>Open PS5 Pro listing</button>
+<button id="reset" hidden>Reset watch</button><small id="reset-help" hidden></small>
+<p id="history" hidden></p>
+<script type="module" src="popup.js"></script></html>

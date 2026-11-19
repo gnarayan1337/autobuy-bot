@@ -1,0 +1,185 @@
+{
+  "requestedZip": "75013",
+  "method": "GET",
+  "session": "anonymous, no browser, no credentials",
+  "samples": [
+    {
+      "sample": "base",
+      "requestedAccept": "text/html",
+      "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316",
+      "status": 200,
+      "bytes": 350055,
+      "ms": 639,
+      "at": "2026-11-19T00:57:08+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"f0394rzc5q7i0o\"",
+        "Date": "Thu, 19 Nov 2026 00:57:08 GMT"
+      },
+      "responseSHA256": "36bed426483aaa2982815112423780615336db7b1b907b2a1223e14b95be7bdb",
+      "literalZipMentions": 0,
+      "visibleZipMentions": 0,
+      "tcin": "94961316",
+      "catalogEvidence": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      },
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "fulfillmentMarkupSHA256": "7985abd66a820c9879ef90a78edda3dc6d23836de63d74b4ec4b1890deecee44"
+    },
+    {
+      "sample": "pro",
+      "requestedAccept": "text/html",
+      "url": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188",
+      "status": 200,
+      "bytes": 360315,
+      "ms": 870,
+      "at": "2026-11-19T00:57:08+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"herk0esppn7pyo\"",
+        "Date": "Thu, 19 Nov 2026 00:57:08 GMT"
+      },
+      "responseSHA256": "2440cd7697b4fe7ac7fb213ea217b09b307c75f406f06818893803df354dc7f9",
+      "literalZipMentions": 0,
+      "visibleZipMentions": 0,
+      "tcin": "93620188",
+      "catalogEvidence": {
+        "shipToGuestActive": true,
+        "fastSelling": true,
+        "fulfillmentSections": 0
+      },
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "fulfillmentMarkupSHA256": "7985abd66a820c9879ef90a78edda3dc6d23836de63d74b4ec4b1890deecee44"
+    },
+    {
+      "sample": "catalog",
+      "requestedAccept": "text/html",
+      "url": "https://www.target.com/c/playstation-5/-/N-hj96dZvjq4e",
+      "status": 200,
+      "bytes": 229481,
+      "ms": 974,
+      "at": "2026-11-19T00:57:09+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"32t9vvvow24x1s\"",
+        "Date": "Thu, 19 Nov 2026 00:57:09 GMT"
+      },
+      "responseSHA256": "1a620787be51f944d561f8c89f89f14b58df1dd4b2500cf91a19412362b214a9",
+      "literalZipMentions": 0,
+      "visibleZipMentions": 0,
+      "itemMentionCounts": {
+        "93620188": 1,
+        "94961316": 1
+      },
+      "whereIdsOccur": "Each ID appeared only in a trending-search URL."
+    },
+    {
+      "sample": "base-schema",
+      "requestedAccept": "application/ld+json",
+      "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316",
+      "status": 200,
+      "bytes": 350055,
+      "ms": 933,
+      "at": "2026-11-19T00:57:10+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"3un8hjefcr7i0o\"",
+        "Date": "Thu, 19 Nov 2026 00:57:10 GMT"
+      },
+      "responseSHA256": "886e20f01553dc2e4829453cb41e4b443bc78c909961b378c1c45c545980b6e9",
+      "literalZipMentions": 0,
+      "visibleZipMentions": 0,
+      "tcin": "94961316",
+      "catalogEvidence": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      },
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "fulfillmentMarkupSHA256": "7985abd66a820c9879ef90a78edda3dc6d23836de63d74b4ec4b1890deecee44"
+    },
+    {
+      "sample": "base-zip",
+      "requestedAccept": "text/html",
+      "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316?zip=75013",
+      "status": 200,
+      "bytes": 350184,
+      "ms": 636,
+      "at": "2026-11-19T00:58:22+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"g1tq8a576s7i49\"",
+        "Date": "Thu, 19 Nov 2026 00:58:22 GMT"
+      },
+      "responseSHA256": "ed64b2333a064631da1b0b4e8b3f4df0e853f0c9f54d345165eb734499cab4cf",
+      "literalZipMentions": 5,
+      "visibleZipMentions": 0,
+      "tcin": "94961316",
+      "catalogEvidence": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      },
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "fulfillmentMarkupSHA256": "7985abd66a820c9879ef90a78edda3dc6d23836de63d74b4ec4b1890deecee44",
+      "zipEchoFields": [
+        "[]/state/data/metadata/url",
+        "queries/[]/queryKey/[]/query_string",
+        "props/dehydratedState/queries/[]/queryHash",
+        "queries/[]/meta/variables/query_string",
+        "query/zip"
+      ]
+    },
+    {
+      "sample": "pro-zip",
+      "requestedAccept": "text/html",
+      "url": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188?zip=75013",
+      "status": 200,
+      "bytes": 360444,
+      "ms": 1458,
+      "at": "2026-11-19T00:58:23+00:00",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Cache-Control": "private, no-cache",
+        "Vary": "Accept-Encoding",
+        "ETag": "\"yn3ezxy3bo7q29\"",
+        "Date": "Thu, 19 Nov 2026 00:58:23 GMT"
+      },
+      "responseSHA256": "af3719a04489aaa0a7c2020a9807ed2da3fd032a5c247b38088787aad9928f6d",
+      "literalZipMentions": 5,
+      "visibleZipMentions": 0,
+      "tcin": "93620188",
+      "catalogEvidence": {
+        "shipToGuestActive": true,
+        "fastSelling": true,
+        "fulfillmentSections": 0
+      },
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "fulfillmentMarkupSHA256": "7985abd66a820c9879ef90a78edda3dc6d23836de63d74b4ec4b1890deecee44",
+      "zipEchoFields": [
+        "[]/state/data/metadata/url",
+        "queries/[]/queryKey/[]/query_string",
+        "props/dehydratedState/queries/[]/queryHash",
+        "queries/[]/meta/variables/query_string",
+        "query/zip"
+      ]
+    }
+  ]
+}

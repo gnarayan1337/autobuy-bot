@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-19",
+  "retailer": "Target",
+  "tcin": "93620188",
+  "method": "Read-only Chrome DevTools getEventListeners inspection of the visible challenge frame",
+  "accessibleChallenge": {
+    "selector": "a[role=button][aria-label='Accessible challenge']",
+    "eventTypes": ["mouseenter", "mouseleave", "focus", "blur", "pointerleave", "keyup", "pointerup", "mouseup"],
+    "hasClickListener": false,
+    "pointerupAndMouseupShareListener": true
+  },
+  "mainChallenge": {
+    "labelAtInspection": "Press & Hold Human Challenge",
+    "eventTypes": ["mousedown", "touchstart", "pointerdown", "mouseup", "mouseout", "touchleave", "ontouchleave", "touchend", "ontouchend", "touchcancel", "ontouchcancel", "pointerup", "keydown", "keyup"]
+  },
+  "extensionStatusObserved": "Waiting for the enabled Press again control.",
+  "pageStateObserved": "Accessible challenge remained enabled and the main control still said Press & hold",
+  "liveInputSentDuringInspection": false,
+  "limitation": "Listener types establish the event mismatch in the earlier click() path. They do not establish acceptance of synthetic pointer events or successful verification."
+}

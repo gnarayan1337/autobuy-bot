@@ -1,0 +1,69 @@
+{
+  "retailer": "Target",
+  "product": "PlayStation 5 Console - Digital Edition",
+  "tcin": "94961316",
+  "browserProfile": "Daniel · d",
+  "liveRuns": [
+    {
+      "at": "2026-11-19T11:55:32.355Z",
+      "status": "Stopped. Waiting for the active Pro quantity.",
+      "steps": [
+        "Target acknowledged adding one base PS5 for shipping.",
+        "Returned the base test item to Saved for later."
+      ]
+    },
+    {
+      "at": "2026-11-19T11:56:38.323Z",
+      "status": "Stopped before Place your order. No base order was submitted.",
+      "steps": [
+        "Target acknowledged adding one base PS5 for shipping.",
+        "The cart guard verified the active item, quantity and shipping.",
+        "The checkout guard verified the base console, address, saved card and $649.49 final total.",
+        "The armed Pro policy rejected this base order.",
+        "Edit Payment showed the selected saved card while Place your order was disabled.",
+        "Saving the selected card returned to order review. Target did not display Confirm CVV.",
+        "Returned the base test item to Saved for later."
+      ]
+    },
+    {
+      "at": "2026-11-19T11:58:01.687Z",
+      "status": "Stopped. The checkout shipping ZIP changed.",
+      "steps": [
+        "Target acknowledged adding one base PS5 for shipping.",
+        "The cart guard verified the active item, quantity and shipping.",
+        "The checkout guard verified the base console, address, saved card and $649.49 final total.",
+        "The armed Pro policy rejected this base order.",
+        "Edit Payment showed the selected saved card while Place your order was disabled.",
+        "Saving the selected card returned to order review without a CVV prompt.",
+        "Returned the base test item to Saved for later."
+      ]
+    },
+    {
+      "at": "2026-11-19T12:04:34.391Z",
+      "status": "Stopped before Place your order. No base order was submitted.",
+      "steps": [
+        "Target acknowledged adding one base PS5 for shipping.",
+        "The cart guard verified the active item, quantity and shipping.",
+        "The checkout guard verified the base console, address, saved card and $649.49 final total.",
+        "The armed Pro policy rejected this base order.",
+        "Edit Payment showed the selected saved card while Place your order was disabled.",
+        "Saving the selected card returned to order review without a CVV prompt.",
+        "Reselected the existing saved shipping address without editing it.",
+        "No Confirm CVV drawer appeared on the pre-order routes tested.",
+        "Returned the base test item to Saved for later."
+      ]
+    }
+  ],
+  "liveBaseOrderSubmitted": false,
+  "liveCardCodeConfirmed": false,
+  "observedLiveCvvDrawer": false,
+  "lastRunAfterHumanVerificationCleared": "2026-11-19T12:04:34.391Z",
+  "proWatchVerified": {
+    "profile": "Daniel · d",
+    "version": "1.4.0",
+    "at": "2026-11-19T12:05:13.096Z",
+    "totalLimitUSD": 1100,
+    "reading": "Shipping Not available",
+    "oneUseCodeReady": true
+  }
+}
