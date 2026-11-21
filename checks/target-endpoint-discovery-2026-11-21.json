@@ -1,0 +1,378 @@
+{
+  "investigation": "Target fulfillment endpoint discovery from public storefront code",
+  "recordedAt": "2026-11-21T09:43:03.709030+00:00",
+  "scope": "Anonymous public listing GETs and two product-data requests reconstructed from the current public page and JavaScript. No shopper session, cart actions, payment actions, or purchase attempts.",
+  "conclusion": "The raw HTML still defers shipping availability. The current page publishes a CDUI deferred-enrichment query path that the existing diagnostic blocks and its RedSky-only matcher does not observe. Both reconstructed API probes returned HTTP 435 challenge JSON, so a working shipping read and a loading fix remain unverified.",
+  "products": {
+    "base": {
+      "tcin": "94961316",
+      "url": "https://www.target.com/p/playstation-5-console-digital-edition/-/A-94961316",
+      "httpStatus": 200,
+      "bytes": 351431,
+      "bodySHA256": "3c94134089050ddd8ae7de29decba4a192cbac866bfa297f6742ef0ff2a117ff",
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": false,
+        "fulfillmentSections": 0
+      }
+    },
+    "pro": {
+      "tcin": "93620188",
+      "url": "https://www.target.com/p/playstation-5-pro-console/-/A-93620188",
+      "httpStatus": 200,
+      "bytes": 360599,
+      "bodySHA256": "474a5273befdafcc1c843835636ace05fc1555de6c6ef5ead5cab3626fa7b693",
+      "shipping": "unknown",
+      "reason": "Shipping tile is a loading placeholder (shipping - loading... Shipping)",
+      "catalog": {
+        "shipToGuestActive": true,
+        "fastSelling": true,
+        "fulfillmentSections": 0
+      }
+    }
+  },
+  "publicClientEvidence": {
+    "sources": [
+      {
+        "url": "https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/module-component-product-detail-fulfillment-v1.53c157ef823329fd.js",
+        "bytes": 7035,
+        "bodySHA256": "d53293afdeb7d49faf15b00da0dd56959ab74e494df1c6ff244a73214c80336d"
+      },
+      {
+        "url": "https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/_app-49895eb8f0ea2924.js",
+        "bytes": 1561359,
+        "bodySHA256": "3081333a6ddd2ccf7a03a12f7b96da12715a18d95ab1e212bcb0699aa6d92132"
+      },
+      {
+        "url": "https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/p/%5B...subpath%5D-6ac51edcba5c622c.js",
+        "bytes": 213489,
+        "bodySHA256": "71ae99ac0211edea49b017ad8351e89bf5bc637dd555f71fd2f44373bc7ceb97"
+      }
+    ],
+    "fulfillmentModuleType": "ProductDetailFulfillment",
+    "isEnrichmentDeferred": true,
+    "initialThreeUpSections": [],
+    "queryName": "@web/domain-cdui-orchestrations/mutations/post-update-deferred-enrichment",
+    "method": "POST",
+    "path": "/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+    "directServiceHost": "cdui-orchestrations.target.com",
+    "publicProxyHost": "www.target.com",
+    "proxyFeatureFlag": {
+      "GLOBAL_CDUI_ORCHESTRATIONS_POST_TO_WWW_ENABLED": true
+    },
+    "requestBodyFields": [
+      "page_context",
+      "modules"
+    ],
+    "requestedModuleFields": [
+      "module_placement_id",
+      "module_type",
+      "enrichment_context"
+    ],
+    "interpretation": "The shipped client uses a query with this POST body to enrich deferred page modules. The public configuration selects the www proxy in ordinary production. This is static client evidence; no rendered browser network trace was captured in this run."
+  },
+  "probes": [
+    {
+      "observedAt": "2026-11-21T09:42:23.178740+00:00",
+      "model": "base",
+      "tcin": "94961316",
+      "zip": "75013",
+      "method": "POST",
+      "endpoint": "https://www.target.com/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+      "queryNames": [
+        "channel",
+        "key",
+        "page",
+        "sapphire_channel",
+        "sapphire_page",
+        "state",
+        "tcin",
+        "visitor_id",
+        "zip"
+      ],
+      "status": 435,
+      "contentType": "application/json",
+      "bytes": 343,
+      "elapsedMs": 87,
+      "bodySHA256": "57fb9fe98a9c62a3cd1c3bc441eab4e3f4d020a6e213e9db0f2141e6eb16e0e4",
+      "topLevelKeys": [
+        "appId",
+        "blockScript",
+        "firstPartyEnabled",
+        "hostUrl",
+        "jsClientSrc",
+        "uuid",
+        "vid"
+      ],
+      "productRows": []
+    },
+    {
+      "observedAt": "2026-11-21T09:42:29.296516+00:00",
+      "model": "base",
+      "tcin": "94961316",
+      "zip": "75013",
+      "method": "GET",
+      "endpoint": "https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1",
+      "queryNames": [
+        "channel",
+        "has_pricing_store_id",
+        "key",
+        "page",
+        "pricing_store_id",
+        "skip_personalized",
+        "skip_variation_hierarchy",
+        "state",
+        "tcin",
+        "visitor_id",
+        "zip"
+      ],
+      "status": 435,
+      "contentType": "application/json",
+      "bytes": 343,
+      "elapsedMs": 73,
+      "bodySHA256": "7fe374f29a3cf49ef282482a2ffa8d537457b359a2cc718f373dab8df87c4701",
+      "topLevelKeys": [
+        "appId",
+        "blockScript",
+        "firstPartyEnabled",
+        "hostUrl",
+        "jsClientSrc",
+        "uuid",
+        "vid"
+      ],
+      "productRows": []
+    }
+  ],
+  "probeConditions": {
+    "httpClient": "Python standard-library urllib",
+    "session": "No cookies or authorization headers; anonymous visitor_id=0",
+    "apiKeys": "Read from the public page configuration, used only for the published storefront services, and omitted from this record",
+    "context": "CDUI page/module contexts copied from the fresh anonymous base listing; values omitted from this record",
+    "location": "ZIP 75013, state TX; no shopper-visible location confirmation",
+    "modelsProbed": "Base control only. No further requests to either API after its 435 response; Pro endpoint reads were not attempted.",
+    "redirectsFollowed": false,
+    "retries": 0,
+    "responseInterpretation": "HTTP 435 with blockScript, jsClientSrc and other challenge-related field names; no product row. Challenge payload values were not retained in the record."
+  },
+  "codeFindings": [
+    {
+      "file": "src/shipping_http.py",
+      "line": 58,
+      "finding": "The loading placeholder correctly remains unknown; shipping eligibility does not establish an offer."
+    },
+    {
+      "file": "src/diagnose.mjs",
+      "line": 15,
+      "finding": "The read-only routing rule aborts every POST, including the product-data deferred-enrichment query."
+    },
+    {
+      "file": "src/diagnose.mjs",
+      "line": 24,
+      "finding": "The response listener discards responses outside the exact listing URL and the existing RedSky inventory matcher; CDUI success or refusal would not be reported."
+    },
+    {
+      "file": "src/safety.mjs",
+      "line": 40,
+      "finding": "inventoryRequest only matches exact-TCIN/ZIP GETs at redsky.target.com ending in pdp_fulfillment_vN or pdp_client_vN. It is not a complete endpoint-discovery filter."
+    }
+  ],
+  "validation": [
+    {
+      "command": "python3 -B -m unittest discover -s test -p 'test_shipping_http.py'",
+      "passed": 14
+    },
+    {
+      "command": "python3 -B -m unittest discover -s test -p 'test_target_changes.py'",
+      "passed": 7
+    }
+  ],
+  "limitations": [
+    "No successful API shipping response, available/unavailable pair, or contemporaneous rendered shipping controls were obtained.",
+    "A refusal does not validate the reconstructed request body, all required parameters, or the response schema.",
+    "These results apply to anonymous requests from this environment, not every Target session or inventory service.",
+    "No production parsers, purchase policies, runtime profiles, or watcher configuration were changed."
+  ],
+  "nextValidation": [
+    "In a working ordinary Target browser session, observe the product page fulfillment GETs and the exact CDUI deferred-enrichment query, allowing that known product-data POST in a discovery-only diagnostic.",
+    "Record status, exact requested TCIN/ZIP, response shape and matching rendered Shipping evidence for base and Pro; include an unavailable or unknown/declined case. Keep cookies, keys and opaque contexts out of diagnostics.",
+    "Only after a successful paired response, implement an independently validated reader for its actual shipping schema. Do not promote the CDUI discovery path into buyer decisions merely because the response is HTTP 200."
+  ],
+  "diagnosticFollowUp": {
+    "scope": "Diagnostic implementation and a fresh disposable browser session for the base model; no shopper sign-in or cart mutation.",
+    "changes": [
+      "The diagnostic now accepts the exact product-data CDUI POST with a checked page/module body and expected TCIN, forwards it once using the context HTTP client with redirects and retries disabled, and reports the outcome.",
+      "Static product-page JavaScript and CSS under the known assets host are allowed even when the filename contains add-to-cart or checkout. The old substring filter aborted these page dependencies and prevented fulfillment requests in the initial browser run.",
+      "Logs include the requested versus observed ZIP, known fulfillment structure, rendered shipping evidence, blocked requests and failed dependencies without query strings or opaque contexts."
+    ],
+    "beforeAssetFix": {
+      "outcome": "no_matching_fulfillment_request",
+      "blockedScriptHost": "assets.targetimg1.com",
+      "matchingCduiRequests": 0
+    },
+    "afterAssetFix": {
+      "outcome": "challenge",
+      "requestedZip": "75013",
+      "pageRequestZip": "20147",
+      "cduiPostsForwarded": 2,
+      "cduiStatuses": [
+        435,
+        435
+      ],
+      "shippingForRequestedZip": "unknown"
+    },
+    "events": [
+      {
+        "event": "request_blocked_by_diagnostic",
+        "observedAt": "2026-11-21T09:49:58.767Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "host": "www.target.com",
+        "method": "GET",
+        "resourceType": "other"
+      },
+      {
+        "event": "product_page",
+        "observedAt": "2026-11-21T09:49:59.085Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "status": 200,
+        "elapsedMs": 832
+      },
+      {
+        "event": "request_blocked_by_diagnostic",
+        "observedAt": "2026-11-21T09:49:59.369Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "host": "api.target.com",
+        "method": "POST",
+        "resourceType": "fetch"
+      },
+      {
+        "event": "request_blocked_by_diagnostic",
+        "observedAt": "2026-11-21T09:49:59.584Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "host": "carts.target.com",
+        "method": "GET",
+        "resourceType": "fetch"
+      },
+      {
+        "event": "cdui_post_forwarded",
+        "observedAt": "2026-11-21T09:49:59.660Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "kind": "cdui",
+        "endpoint": "https://www.target.com/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+        "method": "POST",
+        "productMatches": true,
+        "zip": "20147",
+        "zipMatches": false,
+        "allowed": true,
+        "status": 435
+      },
+      {
+        "event": "cdui_post_forwarded",
+        "observedAt": "2026-11-21T09:49:59.661Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "kind": "cdui",
+        "endpoint": "https://www.target.com/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+        "method": "POST",
+        "productMatches": true,
+        "zip": "20147",
+        "zipMatches": false,
+        "allowed": true,
+        "status": 435
+      },
+      {
+        "event": "fulfillment_response",
+        "observedAt": "2026-11-21T09:49:59.933Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "kind": "cdui",
+        "endpoint": "https://www.target.com/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+        "method": "POST",
+        "productMatches": true,
+        "zip": "20147",
+        "zipMatches": false,
+        "allowed": true,
+        "status": 435,
+        "outcome": "challenge",
+        "shipping": "unknown",
+        "transport": "http_forward"
+      },
+      {
+        "event": "fulfillment_response",
+        "observedAt": "2026-11-21T09:49:59.934Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "kind": "cdui",
+        "endpoint": "https://www.target.com/cdui_orchestrations/v1/pages/pdp/deferred_enrichment/modules",
+        "method": "POST",
+        "productMatches": true,
+        "zip": "20147",
+        "zipMatches": false,
+        "allowed": true,
+        "status": 435,
+        "outcome": "challenge",
+        "shipping": "unknown",
+        "transport": "http_forward"
+      },
+      {
+        "event": "page_dependency_http_error",
+        "observedAt": "2026-11-21T09:49:59.950Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "host": "redsky.target.com",
+        "method": "GET",
+        "resourceType": "fetch",
+        "status": 435
+      },
+      {
+        "event": "page_dependency_http_error",
+        "observedAt": "2026-11-21T09:49:59.950Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "host": "redsky.target.com",
+        "method": "GET",
+        "resourceType": "fetch",
+        "status": 435
+      },
+      {
+        "event": "rendered_shipping",
+        "observedAt": "2026-11-21T09:50:00.026Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "correctProduct": true,
+        "shipping": "unknown",
+        "displayedShipping": "unavailable",
+        "destinationZip": "20147",
+        "zipMatches": false
+      },
+      {
+        "event": "diagnostic_complete",
+        "observedAt": "2026-11-21T09:50:00.026Z",
+        "tcin": "94961316",
+        "requestedZip": "75013",
+        "outcome": "challenge",
+        "directInventoryGetSent": false,
+        "cduiPostsForwarded": 2,
+        "dependencyFailures": 2,
+        "blockedDependencyGroups": 3
+      }
+    ],
+    "interpretation": "After the static-asset fix, the actual page issued CDUI queries. Both forwarded responses were challenges. The configured ZIP is only a comparison target; the disposable page chose a different ZIP. Its rendered unavailable label does not establish shipping for ZIP 75013. Requests already in flight can produce multiple failure events before the context closes.",
+    "validation": {
+      "nodeUnitTests": 31,
+      "browserFixtures": [
+        "200 CDUI response updates the fixture DOM while HTTP availability stays unverified",
+        "435 CDUI response is reported as challenge",
+        "307 response is not followed; cart writes remain blocked"
+      ],
+      "browserFixtureCommand": "node checks/target_discovery.mjs --chromium"
+    },
+    "remaining": "A successful accepted-session fulfillment response paired with the exact model and shopper-visible destination; direct cart behavior is separately unverified."
+  }
+}

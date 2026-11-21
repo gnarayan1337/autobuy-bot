@@ -39,6 +39,8 @@ The popup’s **Detection times** records up to 100 transitions in extension-loc
 
 ## Target
 
+For the current endpoint investigation and local Mac login commands, start with [MAC_HANDOFF.md](MAC_HANDOFF.md).
+
 
 A standalone Node.js program for Target TCIN **93620188**. The configured purchase is **one console, shipped to ZIP 75013, maximum $1,100 including tax and shipping**.
 
@@ -70,6 +72,37 @@ During a stock check in visible Chrome, a detected CAPTCHA rings the terminal be
 
 The browserless command uses the Python standard library to GET public product HTML. By default, `shipping` reports the current offer shown for the selected model without requiring a ZIP. Pass `--zip 75013` only to require an offer for that destination. This filter checks the returned HTML. The separate `shippingEligible` field reports Target’s catalog setting for ship-to-guest orders. An active catalog setting and a loading tile yield `shippingEligible: true` and `shipping: "unknown"` (exit code 2).
 
+### EC2 login through an SSH tunnel
+
+On the prepared EC2 instance, the remote-display helper runs a visible Chromium browser with the dedicated `.runtime/browser` profile. Its noVNC viewer binds to `127.0.0.1:6080`; VNC binds to `127.0.0.1:5901` and X11 has no TCP listener. SSH provides access to the viewer. The helper opens Target for a human to sign in; it does not enter credentials or perform shopping actions. Browser state and private process logs stay under `.runtime`.
+
+On EC2:
+
+```sh
+cd /data/target_bot/autobuy-bot
+python3 scripts/target_remote.py start
+```
+
+On your laptop, add this forwarding to your usual SSH connection (retain your usual key or host-alias options):
+
+```sh
+ssh -N -L 6080:127.0.0.1:6080 ec2-user@YOUR_EC2_HOST
+```
+
+Keep that terminal open and visit `http://localhost:6080/vnc.html?autoconnect=true&resize=scale` in your laptop browser. Complete Target's verification and sign-in there, then set shipping ZIP `75013`. Close the remote Chromium window when finished, or run `python3 scripts/target_remote.py finish-login` from your EC2 terminal. This closes the browser cleanly and preserves its profile.
+
+To test the saved session from EC2:
+
+```sh
+python3 scripts/target_remote.py diagnose
+```
+
+This closes any remaining login window and runs the read-only diagnostic with `--session --headed --channel chromium --model both --zip 75013`. It does not place a cart or order request. A challenge or unknown reading remains unverified. `status` reports the helper's processes; `stop` closes the login browser and stops the remote display. Stopping preserves the browser profile. No AWS inbound rule for ports 6080 or 5901 is needed.
+
+The helper requires Linux, TigerVNC `Xvnc`, `xauth`, and Metacity. The prepared instance has Node 22 at `.runtime/tools/node/bin/node`, Playwright Chromium under `.runtime/tools/browsers`, [noVNC v1.7.0](https://github.com/novnc/noVNC/releases/tag/v1.7.0) at `.runtime/tools/noVNC`, and websockify 0.13.0 in `.runtime/tools/remote-venv`. These local installations are ignored by Git and must be provisioned separately on another instance. The browser assets are on the data volume because this EC2 root disk is small. The viewer has no separate VNC password and is accessible only through the host's loopback interface or an SSH tunnel.
+
+`npm test` covers shared-profile locking and cleanup. `node checks/target_session.mjs --chromium` verifies that a disposable fixture session survives closing the browser and is available to both the next browser and its HTTP client. This fixture does not prove live Target sign-in or API acceptance.
+
 ### Compare fresh Target responses over time
 
 ```sh
@@ -79,6 +112,18 @@ npm run target:changes -- --model both --rounds 4 --interval 12
 This experiment makes an independent public HTTPS request for each console every round. It uses no Chrome tab, account, ZIP or external stock service. Each response is compared with the previous one for that same console. A `shipping_data_changed` event records changes to the Shipping button or an explicit shipping status in the item's embedded data. An unfamiliar label is recorded even if its meaning is unknown. `other_page_bytes_changed` means only the document hash changed among the fields being compared.
 
 The default log is `.runtime/target-public-changes.jsonl` with UTC observation times to the millisecond. Use `npm run target:changes` for an ongoing Pro-only terminal session with a 30-second pause between checks. Ctrl+C ends the session. The reader backs off on rate limits, stops on an access challenge, and only writes to the terminal and log. In the November 19 comparison, the base console offered shipping in Chrome while its raw HTML still returned a loading placeholder. This mode can miss a restock for as long as Target serves that placeholder.
+
+### Discover fulfillment requests
+
+```sh
+npm run target:diagnose -- --model both --zip 75013
+```
+
+By default, this bounded diagnostic opens a fresh, disposable browser context per product. Add `--session` to reuse `.runtime/browser` from `npm run setup` or `npm run target:login`. The saved-session mode shares the CLI run lock and closes the profile after each product, so close the login browser first. Profile reuse does not by itself prove Target still accepts the login. It watches RedSky inventory GETs and Target's CDUI deferred-enrichment request, which fetches data for page modules such as Shipping. The CDUI request uses POST with page and module context; it is separate from Add to cart. The diagnostic forwards only that exact product-data POST through Playwright's HTTP client with the context's cookies, without retries or redirects. Cart, checkout and payment requests remain blocked. Static page bundles still load when their filenames contain `add-to-cart` or `checkout`; the old substring filter prevented those dependencies from loading. This forwarding uses an HTTP client rather than the browser's network transport, so acceptance can differ.
+
+Output distinguishes challenge responses, access errors, rate limits, mismatched destinations and unverified response schemas. It also reports blocked requests and failed page dependencies by host and resource type. Restrictions on other POSTs can prevent page initialization; an absent fulfillment request is inconclusive. A challenge, access denial or rate limit ends the run before the next model. It records the rendered shipping state separately. A CDUI 200 response remains `unknown` until its shipping schema has been validated against both product controls. Only a recognized direct RedSky GET for the selected TCIN and ZIP returns exit code 0; unverified inventory returns 2 and runtime failures return 1. Keys, cookies and opaque page/module context are omitted from logs. Run `node checks/target_discovery.mjs` for the local browser fixture check, or add `--chromium` to use Playwright Chromium. `--zip` sets the comparison destination; it does not change Target's displayed delivery location.
+
+Use `--headed` to view the disposable browser, or `--channel chromium` with a separately installed Playwright Chromium. Use `--session` explicitly to reuse your dedicated setup profile; the default remains a fresh context. [Endpoint discovery](checks/target-endpoint-discovery-2026-11-21.json) records the anonymous HTTP 435 results and the earlier diagnostic gap. [Cart request discovery](checks/target-cart-endpoint-2026-11-21.json) identifies the separate session-based Add endpoint from Target's public JavaScript; it is not a verified cart implementation.
 
 ## How the browser monitor works
 
@@ -98,7 +143,7 @@ The program writes `.runtime/state.json` **before** add-to-cart and **before** o
 
 ## Validation and limitations
 
-`npm test` checks polling cadence, spending limits, inventory recognition and restart safety. Use `npm run check:session` to test the dedicated Chrome session or `node src/diagnose.mjs` for a separate fresh-session diagnostic. HTTP verification requires an actual direct GET returning recognized shipping inventory for the configured product and ZIP. A successful listing page load alone leaves inventory unverified.
+`npm test` checks polling cadence, spending limits, inventory recognition and restart safety. Use `npm run check:session` to test the dedicated Chrome session or `npm run target:diagnose -- --model both` for a separate fresh-session diagnostic. HTTP verification requires an actual direct GET returning recognized shipping inventory for the configured product and ZIP. A successful listing page load alone leaves inventory unverified.
 
 The standalone CLI's live checkout and direct inventory path remain unverified. A read-only diagnostic received HTTP 435 for store-location requests and did not discover a usable shipping response. The separately tested Chrome extension reached a live base-console CVV drawer. See the [verification records and headless fixture commands](AGENTS.md#verification-from-a-terminal) for the scope of each result.
 

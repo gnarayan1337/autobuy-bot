@@ -1,0 +1,63 @@
+{
+  "investigation": "Target Add-to-cart request contract from public storefront code",
+  "recordedAt": "2026-11-21T09:48:32.657622+00:00",
+  "evidenceType": "Static public page configuration and shipped JavaScript; no live cart mutation attempted",
+  "source": "https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/_app-49895eb8f0ea2924.js",
+  "sourceSHA256": "3081333a6ddd2ccf7a03a12f7b96da12715a18d95ab1e212bcb0699aa6d92132",
+  "request": {
+    "method": "POST",
+    "endpoint": "https://carts.target.com/web_checkouts/v1/cart_items",
+    "configurationPath": "services.carts.apis.webCheckoutsV1.endpointPaths.cartItems",
+    "queryFields": [
+      "key",
+      "field_groups"
+    ],
+    "headers": {
+      "x-application-name": "web"
+    },
+    "fetchCredentials": "include",
+    "bodyFields": [
+      "cart_item",
+      "child_cart_item",
+      "fulfillment",
+      "cart_type",
+      "channel_id",
+      "registry_information",
+      "shopping_context",
+      "cart_subchannel",
+      "cart_item_to_replace",
+      "admin_add_to_cart"
+    ],
+    "cartItemBuilderFields": [
+      "item_channel_id",
+      "tcin",
+      "quantity",
+      "doNotSubstitute"
+    ],
+    "fulfillmentBuilderFields": [
+      "type",
+      "location_id",
+      "ship_method"
+    ],
+    "defaults": {
+      "cart_type": "REGULAR",
+      "shopping_context": "DIGITAL"
+    },
+    "note": "These are fields in the public builders, not a minimal validated request. Undefined fields are omitted by JSON.stringify. Shipping-specific defaults, cookies required by the service and response reconciliation remain unverified."
+  },
+  "clientFlow": [
+    "The Add control passes the selected product, quantity and fulfillment into the cart payload builder.",
+    "The request builder reads the public carts service URL and application key from page configuration.",
+    "It POSTs the JSON payload with credentials included, then updates the client cart state from the response."
+  ],
+  "repositoryFlow": {
+    "node": "src/target.mjs:addOne clicks the exact Add button and waits for merchant acknowledgement",
+    "extension": "extension/target-shipping/shipping.js performs its gated Add click; the worker tracks acknowledgement"
+  },
+  "limits": [
+    "Endpoint visibility does not establish that an anonymous or scripted request will be accepted.",
+    "The public application key alone is not proof of a working shopper session.",
+    "No live add, cart readback, checkout or order was performed in this discovery.",
+    "This does not establish a complete HTTP purchase implementation."
+  ]
+}
