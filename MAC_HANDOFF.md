@@ -8,21 +8,11 @@ The user wants to discover and debug Target's website APIs, resolve the persiste
 
 The EC2 remote browser was reachable through an SSH tunnel. The user attempted Target sign-in and reported “sorry there was a problem”; Target sign-in did **not** succeed. The user decided to continue locally on their Mac and explicitly requested that the code be pushed. The EC2 viewer was stopped for this handoff. A broad EC2/IP block is a hypothesis, not a verified explanation of that error.
 
-## Git transfer status
+## Repository and saved conversation
 
-The code is committed on EC2, but GitHub push could not authenticate. The HTTPS credential prompt points to a missing VS Code helper, and the configured SSH credential is a deploy key for a different repository. No applicable GitHub credential was available. The remote GitHub branch therefore still has the earlier code until a successful push from the Mac.
+The code and this handoff are published on the `main` branch of [gnarayan1337/autobuy-bot](https://github.com/gnarayan1337/autobuy-bot). GitHub access over SSH is working on EC2. An existing Mac checkout can use its normal `git pull --ff-only`; no direct EC2 Git transfer is needed.
 
-From an existing local checkout on the Mac, transfer the committed branch through the already-working SSH alias, then push using your Mac's GitHub authentication:
-
-```sh
-git fetch gemini-nyc:/data/target_bot/autobuy-bot main
-git merge --ff-only FETCH_HEAD
-git push origin main
-```
-
-If the fast-forward merge refuses because local commits diverged, preserve the local work and ask Codex to reconcile it; do not reset the checkout. If you have no local checkout, clone the EC2 repository first and set `origin` to `https://github.com/gnarayan1337/autobuy-bot.git` before pushing.
-
-A private snapshot of the user/assistant chat is also prepared on EC2 at `.runtime/handoff/codex-transcript.md`. It excludes tool logs and internal instructions. Copy it from the Mac with:
+A private snapshot of the user/assistant chat is prepared on EC2 at `.runtime/handoff/codex-transcript.md`. It excludes tool logs and internal instructions. Copy it from the Mac with:
 
 ```sh
 scp gemini-nyc:/data/target_bot/autobuy-bot/.runtime/handoff/codex-transcript.md ~/Downloads/autobuy-codex-transcript.md
